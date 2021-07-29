@@ -14,6 +14,7 @@ My professional portfolio is now online and fully functional!
 - The links to the "Portfolio" image's will take you to my Github application with all previous repository's
 - The page will continue to be updated as I add items and applications to my portfolio
 - Feel free to use my contact information at any time!
+- Media screen coding has been added to allow the best user accessibility
 
 Please follow the below link for our updated website
 
