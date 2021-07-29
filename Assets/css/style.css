@@ -1,25 +1,35 @@
 * {
   box-sizing: border-box;
-  padding: 5;
+  padding: 0.1px;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: fit-content;
+  background-color: cyan;
 }
 
 nav a {
-  padding: 30px;
-  margin-right: 10px;
-  font-size: 25px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: gold;
 }
 
 .header {
-  padding: 1px;
+  margin: 0 auto;
+  overflow: hidden;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background-color: crimson;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQajghI2JXcVh47W44zvE0pQrrmZGZ6QP2LEw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -27,73 +37,56 @@ nav a {
 }
 
 .header h1 {
-  display: flex;
-  font-size: 48px;
-  color: #d9dcd6;
+  font-size: 65px;
+  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
 }
 
-.content {
-  max-width: 100%;
-}
-
-.pagesection {
-  background-color: gray;
-  margin: 15px;
-  height: 452px;
-  border: solid;
-  text-align: left;
-}
-
-.pagesection2 {
-  background-color: gray;
-  margin: 15px;
-  height: 150px;
-  border: solid;
-  text-align: left;
-}
-
-.pagesection h2 {
+h2 {
+  font-size: 40px;
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.contactme {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
-}
-
-p {
-  display: flex;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+.pagesection2 {
+  color: white;
+  font-size: 25px;
   font-weight: bolder;
   text-align: center;
+  background-image: url(https://ucsdguardian.org/wp-content/uploads/2020/02/Video-Games-Blog.jpg);
+  background-size: 100%;
 }
 
-p1 {
-  font-family: cursive
-  display: flex;
-  flex-direction: row;
-  font-size: 25px;
+.pagesection3 {
+  color: #d9dcd6;
+  text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQajghI2JXcVh47W44zvE0pQrrmZGZ6QP2LEw&usqp=CAU);
+  background-size: 100%;
+  height: auto;
+}
+
+.pagesection3 img {
+  height: 25%;
+  width: 45%;
 }
 
 footer {
-	position:static;
-	width: 100%;
-	left: 0;
-	bottom: 0;
-	background-color: brown;
-	color: white;
-	text-align: center;
-  font-family: monospace
+  display: flex;
+  font-family: cursive;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 25px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQajghI2JXcVh47W44zvE0pQrrmZGZ6QP2LEw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  font-family: monospace;
+}
+
+.em-baseball {
+  margin-right: 15x;
+  margin-left: 15px;
 }
