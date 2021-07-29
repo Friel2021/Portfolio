@@ -11,4 +11,4 @@ My professional portfolio is now online and fully functional!
 Please follow the below link for our updated website
 
 
-
+© 2021 Friel
