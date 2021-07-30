@@ -22,8 +22,12 @@ nav a:hover {
   color: gold;
 }
 
+p {
+  line-height: 45px;
+}
+
 .header {
-  border: 8px solid #555;
+  border: 14px solid #555;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-image: url(https://cdn.shopify.com/s/files/1/2930/2308/products/deep-gray-printed-old-master-solid-background-for-photography-backdrop_1024x1024.jpg?v=1535707898);
   background-repeat: no-repeat;
@@ -75,11 +79,11 @@ h2 {
 }
 
 #two {
-  max-width: 20%;
+  max-width: 40%;
 }
 
 #three {
-  max-width: 20%;
+  max-width: 3%;
 }
 
 footer {
@@ -110,3 +114,4 @@ footer {
 }
 @media screen and (max-width: 1020px) {
 }
+
