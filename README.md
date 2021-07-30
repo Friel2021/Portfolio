@@ -1,4 +1,4 @@
-[FireShot Capture 006 - Portfolio - friel2021 github io](https://user-images.githubusercontent.com/87154134/127596510-dcbad50d-2566-481e-8584-01ff8d77bd6c.png)
+![FireShot Capture 006 - Portfolio - friel2021 github io](https://user-images.githubusercontent.com/87154134/127596510-dcbad50d-2566-481e-8584-01ff8d77bd6c.png)
 
 
 # Portfolio
