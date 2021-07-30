@@ -4,19 +4,18 @@
 }
 
 nav {
+  border: black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: fit-content;
-  background-color: cyan;
 }
 
 nav a {
   padding: 10px;
-  font-family: cursive;
-  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
   font-size: 20px;
+  color: cyan;
 }
 
 nav a:hover {
@@ -24,10 +23,9 @@ nav a:hover {
 }
 
 .header {
-  margin: 0 auto;
-  overflow: hidden;
+  border: 8px solid #555;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQajghI2JXcVh47W44zvE0pQrrmZGZ6QP2LEw&usqp=CAU);
+  background-image: url(https://cdn.shopify.com/s/files/1/2930/2308/products/deep-gray-printed-old-master-solid-background-for-photography-backdrop_1024x1024.jpg?v=1535707898);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -37,7 +35,7 @@ nav a:hover {
 }
 
 .header h1 {
-  font-size: 65px;
+  font-size: 85px;
   font-family: "Times New Roman", Times, serif;
   color: whitesmoke;
 }
@@ -48,32 +46,40 @@ h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.pagesection2 {
-  padding-left: 5px;
+.pagesection3 {
+  background-size: 100% 100%;
+  border: 8px solid #555;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   color: white;
   font-size: 27px;
   font-weight: bolder;
   text-align: center;
-  background-image: url(https://wallpapercave.com/wp/wp2641466.jpg);
-  background-size: 100%;
-}
-
-.pagesection3 {
-  padding: 35px;
-  color: #d9dcd6;
-  text-align: center;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQajghI2JXcVh47W44zvE0pQrrmZGZ6QP2LEw&usqp=CAU);
-  background-size: 100%;
-  height: auto;
+  background-image: url(https://cdn.shopify.com/s/files/1/2930/2308/products/deep-gray-printed-old-master-solid-background-for-photography-backdrop_1024x1024.jpg?v=1535707898);
 }
 
 .pagesection3 img {
-  display: block;
+  border: 8px solid #555;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border: 8px solid #555;
-  max-height: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#one {
+}
+
+#two {
+  max-width: 20%;
+}
+
+#three {
+  max-width: 20%;
 }
 
 footer {
@@ -86,7 +92,6 @@ footer {
   width: 100%;
   left: 0;
   bottom: 0;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQajghI2JXcVh47W44zvE0pQrrmZGZ6QP2LEw&usqp=CAU);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: white;
@@ -96,4 +101,12 @@ footer {
 .em-baseball {
   margin-right: 15x;
   margin-left: 15px;
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 780px) {
+}
+@media screen and (max-width: 1020px) {
 }
