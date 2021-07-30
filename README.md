@@ -1,4 +1,4 @@
-![FireShot Capture 002 - Portfolio - friel2021 github io](https://user-images.githubusercontent.com/87154134/127545901-f2d96e73-6b08-4f11-85ee-8e2373007221.png)
+![FireShot Capture 004 - Portfolio - friel2021 github io](https://user-images.githubusercontent.com/87154134/127572646-0dc9d98e-9d37-4840-a4d2-e75dd8a79635.png)
 
 # Portfolio
 
@@ -6,9 +6,10 @@
 
 - Added my profile picture to the nav bar
 - links in nav are now working to automatically take you to that portion of the webpage
-- The link to the "Portfolio" image will take you to my Github application with all previous repository's
+- The links to the "Portfolio" image's will take you to my Github application with all previous repository's
 - The page will continue to be updated as I add items and applications to my portfolio
 - Feel free to use my contact information at any time!
+- Media screen coding has been added to allow the best user accessibility
 
 My professional portfolio is now online and fully functional!
 
