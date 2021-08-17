@@ -26,6 +26,12 @@ p {
   line-height: 45px;
 }
 
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
 .header {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -41,8 +47,9 @@ p {
 }
 
 .header h1 {
+  padding-bottom: -20px;
   font-size: 85px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Cherry Cream Soda", cursive;
   color: whitesmoke;
 }
 
@@ -79,9 +86,6 @@ h2 {
   border-top-right-radius: 20px;
 }
 
-#one {
-}
-
 #two {
   max-width: 40%;
 }
@@ -104,11 +108,6 @@ footer {
   background-size: 100% 100%;
   color: white;
   font-family: monospace;
-}
-
-.em-baseball {
-  margin-right: 15x;
-  margin-left: 15px;
 }
 
 @media screen and (max-width: 480px) {
