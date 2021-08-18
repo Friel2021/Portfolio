@@ -53,6 +53,12 @@ p {
   color: whitesmoke;
 }
 
+h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
 h2 {
   font-size: 40px;
   text-align: center;
@@ -97,17 +103,24 @@ h2 {
 footer {
   border-top: ridge;
   display: flex;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   justify-content: center;
-  flex-direction: row;
-  font-size: 25px;
+  font-size: 22px;
   width: 100%;
   left: 0;
   bottom: 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: white;
-  font-family: monospace;
+  color: cyan;
+}
+
+footer a:hover {
+  color: gold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: cyan;
 }
 
 @media screen and (max-width: 480px) {
